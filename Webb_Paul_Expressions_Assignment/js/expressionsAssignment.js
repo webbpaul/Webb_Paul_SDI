@@ -54,3 +54,11 @@ alert(name+ ", in " +inHowManyYears+ " years you will have done your favorite ac
 //logging the users final resuly.
 console.log(howMuchYearly)
 
+
+/*  notes
+I typed in 2 for how many times a week I do my favorite activity and the results said 8.
+I typed in 2 years for a total of how many times I did my activity and the results said 96.
+
+I typed in 4 for how many times a week I do my favorite activity and the results said 16.
+I typed in 4 years for a total of how many times I did my activity and the results said 192.
+ */
