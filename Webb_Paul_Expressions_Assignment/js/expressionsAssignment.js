@@ -34,4 +34,5 @@ notes: console.log to see if the multiplication worked.
 console.log(howOftenMonthly)
     */
 
+//Alerted the user how many times they do their favorite activity
 alert("You do your favorite activity " +howOftenMonthly+ " times a month.");
