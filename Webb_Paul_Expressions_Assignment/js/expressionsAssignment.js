@@ -22,3 +22,16 @@ var howOftenWeekly = prompt("How many times a week do you do your favorite activ
 //console.log the user's favorite activity.  (Checked to see if the favorite activity was logged.)
 console.log(howOftenWeekly);
 
+//set the month variable to 4
+var month = 4
+
+//calculating how many times a month the user does their favorite activity
+var howOftenMonthly = howOftenWeekly * month
+
+/*
+notes: console.log to see if the multiplication worked.
+
+console.log(howOftenMonthly)
+    */
+
+alert("You do your favorite activity " +howOftenMonthly+ " times a month.");
