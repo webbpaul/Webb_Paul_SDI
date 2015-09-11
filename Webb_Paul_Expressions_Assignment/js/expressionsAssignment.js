@@ -12,3 +12,6 @@ var name = prompt("We are trying to figure out how often you do your favorite ac
 
 //Using the variable "name" to alert the user and say hello.
 alert("Hello " +name+ ".");
+
+//Asking the user what their favorite activity is
+var favoriteActivity = prompt("What is your favorite activity " +name+ "?");
