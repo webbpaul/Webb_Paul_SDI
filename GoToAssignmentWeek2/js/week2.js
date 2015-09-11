@@ -5,4 +5,4 @@ Name
 Date
  */
 
-alert("Test to see if connected");
+//alert("Test to see if connected");
