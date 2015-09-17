@@ -44,20 +44,29 @@ var ageWithParent = 16;
 //calulating to see if the user can enter the concert
 if(age >= ageToEnter){
     //telling the user that they can enter the concert.
-    console.log("You are old enough to enter the concert. Enjoy!")
+    console.log(name + ", you are old enough to enter the concert. Enjoy!")
 //calculating to see if the user can enter with a parent.
 }else if(age >= ageWithParent && age <=ageToEnter){
     //telling the user that they can enter with a parent.
-    console.log("You can enter, but you must be accompanied by a parent. Enjoy the concert!")
+    console.log(name + ", you can enter but you must be accompanied by a parent. Enjoy the concert!")
 //Calculating to see if the user caan enter at all.
 }else if(age < ageWithParent) {
     //telling the user thhat they can not enter the concert at all.
-    console.log("Sorry, you are not old enough to enter the concert. Have a good night!")
+    console.log("Sorry " +name + ", you are not old enough to enter the concert. Have a good night!")
 }
 
 //making variable to see if the user can drink at the concert
 var ageToDrink;
 //calulating to see if the user can drink or not
-ageToDrink = (age > 21) ? "You are allowed to drink. Enjoy the Concert!" : "You can not drink."
+ageToDrink = (age > 21) ? "You are allowed to drink. Enjoy the concert " + name + "!" : "You can not drink."
 //letting the use know if they can drink or not.
 console.log(ageToDrink);
+
+
+/*
+TESTS
+1. Entered in year 1993 which makes me 22. tests confirmed that I can enter the concert and drink.
+2. Entered in year 1998 which makes me 17.  Tests confirmed that I was able to enter the concert, but I needed to be with and adult.
+I am not able to drink at the concert since I am 17.
+3. Entered in year 2001 which makes me 14.  Tests confirms that I can not enter the concert at all.
+ */
