@@ -50,6 +50,14 @@ if(age >= ageToEnter){
     //telling the user that they can enter with a parent.
     console.log("You can enter, but you must be accompanied by a parent. Enjoy the concert!")
 //Calculating to see if the user caan enter at all.
-}else(age > ageWithParent)
-//alerting the user that they can not enter at all.
-    console.log("Sorry, you are not old enough to enter the concert. Have a good night!");
+}else if(age < ageWithParent) {
+    //telling the user thhat they can not enter the concert at all.
+    console.log("Sorry, you are not old enough to enter the concert. Have a good night!")
+}
+
+//making variable to see if the user can drink at the concert
+var ageToDrink;
+//calulating to see if the user can drink or not
+ageToDrink = (age > 21) ? "You are allowed to drink. Enjoy the Concert!" : "You can not drink."
+//letting the use know if they can drink or not.
+console.log(ageToDrink);
