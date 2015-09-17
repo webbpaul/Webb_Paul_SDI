@@ -38,5 +38,18 @@ var ageToEnter = 18;
 var ageWithParent = 16;
 
 //Setting the age to drink at the concert to 21.
-var ageToDrink = 21;
+//var ageToDrink = 21;
 
+//figuring out if the user can enter into the concert.
+//calulating to see if the user can enter the concert
+if(age >= ageToEnter){
+    //telling the user that they can enter the concert.
+    console.log("You are old enough to enter the concert. Enjoy!")
+//calculating to see if the user can enter with a parent.
+}else if(age >= ageWithParent && age <=ageToEnter){
+    //telling the user that they can enter with a parent.
+    console.log("You can enter, but you must be accompanied by a parent. Enjoy the concert!")
+//Calculating to see if the user caan enter at all.
+}else(age > ageWithParent)
+//alerting the user that they can not enter at all.
+    console.log("Sorry, you are not old enough to enter the concert. Have a good night!");
